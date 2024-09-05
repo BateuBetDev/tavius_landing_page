@@ -18,7 +18,7 @@ const config: Config = {
        'main' : "url('/tavius_main.png')",
       },
       backgroundPosition: {
-        'mobile-position': '-160px',
+        'mobile-position': '-220px',
         'tablet-position': '160px',
         'desktop-position': '100%'
       }
