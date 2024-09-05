@@ -1,9 +1,13 @@
-import { Main } from "next/document";
+import Main from "./Main/Main";
 
 export default function Home() {
   return (
     <>
-    <Main></Main>
+    <head>
+
+    </head>
+    {/* <Header/> */}
+    <Main/>
     </>
   );
 }

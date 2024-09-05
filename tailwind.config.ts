@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        'rowdies': 'Rowdies, sans-serif'
       },
+      colors: {
+
+      },
+      backgroundImage: {
+       'main' : "url('/tavius_main.png')",
+      },
+      backgroundPosition: {
+        'mobile-position': '-160px',
+        'tablet-position': '160px',
+        'desktop-position': '100%'
+      }
     },
   },
   plugins: [],
