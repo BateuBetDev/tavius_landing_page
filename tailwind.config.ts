@@ -9,13 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'rowdies': 'Rowdies, sans-serif'
+        'rowdies': 'Rowdies, sans-serif',
+        'kulim': 'Kulim Park, sans-serif'
       },
       colors: {
 
       },
       backgroundImage: {
        'main' : "url('/tavius_main.png')",
+       'second' : "url('/tavius_second.png')",
       },
       backgroundPosition: {
         'mobile-position': '-220px',
