@@ -1,6 +1,8 @@
 import Ebook from "./Ebook/Ebook";
 import Hero from "./Hero/Hero";
 import Main from "./Main/Temp";
+import Recommended from "./Recommended/Recommended";
+import RecommendItems from "./Recommended/RecommendedItems";
 import Who from "./Who/Who";
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
     <Hero/>
     <Ebook/>
     <Who/>
+    <Recommended items={RecommendItems}/>
     </>
   );
 }
