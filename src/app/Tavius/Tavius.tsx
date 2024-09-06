@@ -1,5 +1,3 @@
-import Carousel from '@/components/Carousel/Carousel'
-import CarouselImage from '@/components/Carousel/CarouselImage'
 import Image from 'next/image'
 
 const Tavius = () => {
@@ -12,7 +10,6 @@ const Tavius = () => {
                 </h1>
             </div>
             <div>
-                <Carousel slides={CarouselImage}/>
             </div>
 
         </section>
