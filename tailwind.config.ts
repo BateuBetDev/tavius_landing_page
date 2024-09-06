@@ -22,7 +22,8 @@ const config: Config = {
       backgroundPosition: {
         'mobile-position': '-220px',
         'tablet-position': '160px',
-        'desktop-position': '100%'
+        'desktop-position': '100%',
+        'mobile-position-second': '-210px',
       }
     },
   },
