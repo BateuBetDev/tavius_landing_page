@@ -24,7 +24,7 @@ const config: Config = {
         'tablet-position': '160px',
         'desktop-position': '100%',
         'mobile-position-second': '-210px',
-        'desktop-position-second': '-160px',
+        'desktop-position-second': '-190px',
       }
     },
   },
