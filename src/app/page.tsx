@@ -3,6 +3,7 @@ import Hero from "./Hero/Hero";
 import Main from "./Main/Temp";
 import Recommended from "./Recommended/Recommended";
 import RecommendItems from "./Recommended/RecommendedItems";
+import Tavius from "./Tavius/Tavius";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
     <Hero/>
     <Ebook/>
     <Recommended items={RecommendItems}/>
+    <Tavius/>
     </>
   );
 }
