@@ -18,6 +18,7 @@ const config: Config = {
       backgroundImage: {
        'main' : "url('/tavius_main.png')",
        'second' : "url('/tavius_second.png')",
+       'before-after' : "url('/before-after.png')",
       },
       backgroundPosition: {
         'mobile-position': '-220px',

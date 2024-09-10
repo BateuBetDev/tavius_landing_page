@@ -12,7 +12,7 @@ interface HeroProps {
 
 const Hero:React.FC<HeroProps> = ({items}) => {
     return (
-        <section className="h-screen px-4 py-4 md:px-10 md:py-10">
+        <section className="h-screen px-4 py-4 md:px-10 md:py-10 overflow-hidden">
             <div>
                 <h1 className="text-white uppercase font-rowdies text-center text-2xl md:text-3xl xl:text-[2.5rem]">
                     Você vai <br className="md:hidden" /> aprender comigo:
