@@ -21,7 +21,7 @@ const config: Config = {
        'before-after' : "url('/before-after.png')",
       },
       backgroundPosition: {
-        'mobile-position': '-220px',
+        'mobile-position': '-260px',
         'tablet-position': '160px',
         'desktop-position': '100%',
         'mobile-position-second': '-210px',
