@@ -8,7 +8,7 @@ const Main = () => {
             {/* Header */}
             <div className="px-4 py-2 w-full flex justify-between items-center bg-yellow-400">
                 <Image src={'/logo_black.svg'} alt={'Logo Tavius'} width={120} height={120} />
-                <a href="https://www.google.com">
+                <a href="https://t.me/tavius_7">
                     <FaTelegram className='text-3xl' />
                 </a>
             </div>
